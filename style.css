@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header div{
+    display: inline-block;
+    margin: 10px !important;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+nav a:hover{
+    background-color: rgb(0,0,155);
+}
